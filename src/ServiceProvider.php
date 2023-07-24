@@ -1,21 +1,31 @@
 <?php
 
-namespace NogorSolutionsLTD\Skeleton;
+namespace NogorSolutionsLTD\Directives;
 
-use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Blade;
+use Illuminate\Support\ServiceProvider;
 
-use Illuminate\Support\ServiceProvider as BaseServiceProvider;
-
-class ServiceProvider extends BaseServiceProvider
+class DirectivesServiceProvider extends ServiceProvider
 {
     /**
-     * Register the service provider.
-     *
-     * @return void
+     * Bootstrap the application services.
      */
     public function boot()
     {
-        $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
-        $this->loadViewsFrom(__DIR__.'/../resources/views', 'skeleton');
+        $this->registerDirectives();
+    }
+
+    /**
+     * Register all directives.
+     *
+     * @return void
+     */
+    public function registerDirectives()
+    {
+        $directives = require __DIR__.'/.php';
+
+        collect($directives)->each(function ($item, $key) {
+            Blade::directive($key, $item);
+        });
     }
 }
