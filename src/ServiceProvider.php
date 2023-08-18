@@ -3,9 +3,9 @@
 namespace NogorSolutionsLTD\Directives;
 
 use Illuminate\Support\Facades\Blade;
-use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
-class DirectivesServiceProvider extends ServiceProvider
+class DirectivesServiceProvider extends BaseServiceProvider
 {
     /**
      * Bootstrap the application services.
