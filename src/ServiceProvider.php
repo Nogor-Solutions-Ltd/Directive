@@ -22,7 +22,7 @@ class DirectivesServiceProvider extends ServiceProvider
      */
     public function registerDirectives()
     {
-        $directives = require __DIR__.'/.php';
+        $directives = require __DIR__ . '/Directives.php';
 
         collect($directives)->each(function ($item, $key) {
             Blade::directive($key, $item);
