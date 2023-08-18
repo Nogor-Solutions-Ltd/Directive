@@ -13,7 +13,7 @@ The Laravel Skeleton package provides a customizable starting point for develope
 You can install the package using composer
 
 ```sh
-$  composer require nogorsolutionsltd/skeleton
+$  composer require nogorsolutionsltd/directives
 ```
 
 Then add the service provider to `config/app.php`. In Laravel versions 5.5 and beyond, this step can be skipped if package auto-discovery is enabled.
