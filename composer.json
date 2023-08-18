@@ -1,11 +1,11 @@
 {
-    "name": "nogorsolutionsltd/directives",
-    "description": "A custom directives package for laravel",
+    "name": "nogorsolutionsltd/directive",
+    "description": "A custom directive package for laravel",
     "license": "MIT",
     "homepage": "https://www.nogorsolutions.com/",
     "support": {
-        "issues": "https://github.com/Nogor-Solutions-Ltd/directives/issues",
-        "source": "https://github.com/Nogor-Solutions-Ltd/directives"
+        "issues": "https://github.com/Nogor-Solutions-Ltd/directive/issues",
+        "source": "https://github.com/Nogor-Solutions-Ltd/directive"
     },
     "authors": [{
         "name": "Sarfaraz Muhammad Sajib",
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "NogorSolutionsLTD\\Directives\\": "src"
+            "NogorSolutionsLTD\\Directive\\": "src"
         }
     },
     "extra": {
@@ -26,7 +26,7 @@
         },
         "laravel": {
             "providers": [
-                "NogorSolutionsLTD\\Directives\\ServiceProvider"
+                "NogorSolutionsLTD\\Directive\\ServiceProvider"
             ]
         }
     },
