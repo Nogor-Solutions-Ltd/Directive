@@ -1,11 +1,11 @@
 <?php
 
-namespace NogorSolutionsLTD\Directives;
+namespace NogorSolutionsLTD\Directive;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
-class DirectivesServiceProvider extends BaseServiceProvider
+class ServiceProvider extends BaseServiceProvider
 {
     /**
      * Bootstrap the application services.
