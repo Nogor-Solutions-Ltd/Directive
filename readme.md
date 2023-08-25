@@ -1,11 +1,11 @@
 
 <p align="center">
-    <img height="250px" width="250px" src="https://i.ibb.co/V9NL0gr/DALL-E-2023-04-11-00-07-01-logo-skeleton-laravel-vibes-for-package-and-the-text-will-be-Skeleton.png">
+    <img height="250px" width="250px" src="https://i.ibb.co/6bv2RjJ/DALL-E-2023-08-26-00-53-51-Wizard-logo-simple-minimal-2-color-removebg-preview.png">
 </p>
 
 ## Introduction
 
-The Laravel Skeleton package provides a customizable starting point for developers creating packages for Laravel.
+🌟 Transform your Laravel Blade views with our user-friendly custom directive package – making development a breeze and sprinkling joy into your code! ✨
 
 
 ## Installation
@@ -21,7 +21,7 @@ Then add the service provider to `config/app.php`. In Laravel versions 5.5 and b
 ```php
 'providers' => [
     ...
-     NogorSolutionsLTD\Skeleton\ServiceProvider::class,
+     NogorSolutionsLTD\Directive\ServiceProvider::class,
     ...
 ];
 ```
@@ -29,7 +29,7 @@ Then add the service provider to `config/app.php`. In Laravel versions 5.5 and b
 You can publish the configuration file and assets by running:
 
 ```sh
-$ php artisan vendor:publish --provider=" NogorSolutionsLTD\Skeleton\ServiceProvider::class,"
+$ php artisan vendor:publish --provider=" NogorSolutionsLTD\Directive\ServiceProvider::class,"
 ```
 
 Now that we have published a few new files to our application we need to reload them with the following command:
