@@ -1,6 +1,6 @@
 <?php
 
-namespace NogorSolutionsLTD\Directives;
+namespace NogorSolutionsLTD\Directive;
 
 class Parser
 {
