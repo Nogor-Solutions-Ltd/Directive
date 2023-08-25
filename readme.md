@@ -1,6 +1,6 @@
 
 <p align="center">
-    <img height="250px" width="250px" src="https://i.ibb.co/6bv2RjJ/DALL-E-2023-08-26-00-53-51-Wizard-logo-simple-minimal-2-color-removebg-preview.png">
+    <img height="250px" width="250px" src="[https://i.ibb.co/6bv2RjJ/DALL-E-2023-08-26-00-53-51-Wizard-logo-simple-minimal-2-color-removebg-preview.png](https://i.ibb.co/0tdrHcx/DALL-E-2023-08-26-00-53-51-Wizard-logo-simple-minimal-2-color-1.jpg)">
 </p>
 
 ## Introduction
