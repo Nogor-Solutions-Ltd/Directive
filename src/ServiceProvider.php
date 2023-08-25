@@ -27,5 +27,6 @@ class ServiceProvider extends BaseServiceProvider
         collect($directives)->each(function ($item, $key) {
             Blade::directive($key, $item);
         });
+
     }
 }
