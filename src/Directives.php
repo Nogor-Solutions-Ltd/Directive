@@ -2,11 +2,29 @@
 
 namespace NogorSolutionsLTD\Directives;
 
+
 return [
 
     //'' => function () {
     // Code Here...
     // },
+
+    
+    'encrypt' => function ($expression) {
+        return "<?= \Illuminate\Support\Facades\Crypt::encryptString($expression) ?>";
+    },
+
+     'decrypt' => function () {
+        return "<?= \Illuminate\Support\Facades\Crypt::decryptString($expression) ?>";
+    },
+    
+    'debug' => function () {
+        return "<?= env('APP_DEBUG') ?>";
+    },
+
+    'appenv' => function () {
+        return "<?= env('APP_ENV') ?>";
+    },
 
     'appname' => function () {
         return "<?= env('APP_NAME') ?>";
