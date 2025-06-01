@@ -37,7 +37,9 @@ Now that we have published a few new files to our application we need to reload 
 ```sh
 $ composer dump-autoload
 ```
+## Support
 
+Supports Laravel 6.x through 12.x
 
 ## Change log
 
